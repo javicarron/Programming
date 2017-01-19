@@ -52,7 +52,7 @@ class MainWindow(wx.Frame):
         dlg.Destroy()
         
     def OnExit(self,e):
-        self.Close(True)
+        wx.ColourPickerCtrl()
         
     def OnOpen(self,e):
         self.dirname=''
